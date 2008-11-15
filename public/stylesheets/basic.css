@@ -1,0 +1,52 @@
+body    {
+        background-color: tan;
+        font-family: sans-serif;
+        }
+table   {
+        background-color: white;
+        padding: 10px;
+        }
+.output {
+        border: 1px solid black;
+        background-color: white;
+        padding: 5px;
+        margin: 5px;
+        float: left;
+        }       
+th      {
+        padding: 5pt;
+        }
+td.count {
+        text-align: center;
+        border-left: 1px solid black;
+        }
+tr.totals th {
+        border-top: 1px solid grey;
+        }
+#notice {
+        border: 1px solid black;
+        background-color: yellow;
+        padding: 5px;
+}
+table.reviews {
+        border-collapse: collapse;
+        margin-top: 10px;
+        }       
+.reviews td {
+         text-align: center;
+         border: 1px solid black;
+         padding: 5px;
+}
+.reviews th {
+         border-bottom: 1px solid black;
+}
+reviews_per_doc {
+         }
+span#avg {
+         font-size: 14pt;
+         margin: 5px;
+         color: red;
+         }
+#editorlist {
+         clear: both;
+         }        

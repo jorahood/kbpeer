@@ -1,0 +1,75 @@
+<form action='' method='get' id='the_form'>
+  <div id="controls" class="output">
+
+    <p>Articles for <%= select(:editor,:name, @editors.map {|ed| ed.name}, :include_blank => true) %> from 
+      <input type="hidden" name="sort_by" value="<%= @sort_by %>"/>
+      <%= select_date( @start, :prefix => 'start') %> to
+      <%= select_date( @finish, :prefix => 'finish') %> 
+      <%= submit_tag("Change") %>
+      <br/>Break down chart by:
+      <% ['none','week','month'].each do |span|;
+         checked = @breakdown == span ? 'checked' : nil -%>
+      <%= radio_button_tag("breakdown", span, checked = checked) %> <%= span %>
+      <% end -%>
+    </p>
+  </div>
+  <div id="editorlist" class="output">
+    <table class='list'>
+      <% editor_name = @editor ? @editor.name : '' -%>
+      <tr><td>Select for graphing:</td>
+        <td class="count"><%= check_box_tag("graph_data[Posts]", value=":posts") %></td>
+        <td class="count"><%= check_box_tag("graph_data[Docids]", value="docids_posted") %></td>
+        <td class="count"><%= check_box_tag("graph_data[Reviews]", value="reviews") %></td>
+        <td class="count"><%= check_box_tag("graph_data[Replies]", value="replies") %></td>
+        <% if @editor -%>
+          <td class="count"><%= check_box_tag("graph_data[Reviews of #{@editor.name}]", value="reviews_of") %></td>
+          <td class="count"><%= check_box_tag("graph_data[Replies to #{@editor.name}]", value="replies_to") %></td>
+        <% end -%>
+        <td class="count"><%= check_box_tag("graph_data[Avg reviews per post]", value="avg_reviews_per_post") %></td>
+        <td class="count"><%= check_box_tag("graph_data[0 reviews]", value="0") %></td>
+        <td class="count"><%= check_box_tag("graph_data[1 review]", value="1") %></td>
+        <td class="count"><%= check_box_tag("graph_data[2 reviews]", value="2") %></td>
+        <td class="count"><%= check_box_tag("graph_data[3+ reviews]", value="3") %></td>
+    <tr>
+      <th>Timespan<!--<%= link_to "Timespan", {:sort_by => "timespan", :order_by => @order_by, :editor => editor_name} %>--></th>
+      <th>Posts<!-- <%= link_to "Posts", {:sort_by => "posts", :order_by => @order_by, :editor => editor_name} %>--></th>
+      <th>Docids<br>posted<!--<%= link_to "Docids<br>posted", {:sort_by => "docids", :order_by => @order_by, :editor => editor_name} %>--></th>
+      <th>Reviews <!--<%= link_to "Reviews", {:sort_by => "reviews", :order_by => @order_by, :editor => editor_name} %>--></th>
+      <th>Replies<!--<%= link_to "Replies", {:sort_by => "replies", :order_by => @order_by, :editor => editor_name} %>--></th>
+      <% if @editor -%>
+        <th>Reviews<br>of <%=@editor.name%>
+<!--<%= link_to "Reviews<br>of " + @editor.name, {:sort_by => "reviews_of", :order_by => @order_by, :editor => editor_name} %>--></th>
+        <th>Replies<br>to <%=@editor.name%>
+<!--<%= link_to "Replies<br>to " + @editor.name, {:sort_by => "replies_to", :order_by => @order_by, :editor => editor_name} %>--></th>
+      <% end -%>
+      <th> Avg reviews<br> per post</th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      
+    </tr>
+    <%= render(:partial => 'timespan', :collection => @timespan.subspans) %>
+      <span class="totals">
+        <td></td>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <% if @editor -%>
+          <th></th>
+          <th></th>
+        <% end -%>
+        <th></th>
+      </span>
+      <tr>
+      </tr>
+    <tr>
+      <td>
+        <%= submit_tag("Graph this data", {:onClick => "ChangeAction('/graphs/render_it')"}) %>
+      </td>
+    </table>
+  </div>
+</form>
+
+

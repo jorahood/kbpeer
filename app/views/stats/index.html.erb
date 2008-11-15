@@ -1,0 +1,33 @@
+<% form_for :timespan do |f| %> Articles for 
+  <%= f.select(:editor_id, @editors.map { |ed| 
+      [ed.name, ed.id] }, :include_blank => true) %> from 
+  <%= f.date_select(:start) %> to <%= f.date_select(:finish) %>
+  <%= submit_tag("Change") %>
+  <br/>Subdivide chart by: 
+  <% @subdivisions.each do |subd_option| -%>
+    <%= f.radio_button( "subdivision", subd_option)  %> <%= subd_option %>
+  <% end -%>
+  <table class='list'>
+    <tr>
+      <th>Timespan</th>
+      <th>Posts</th>
+      <th>Docids<br>posted</th>
+      <th>Reviews </th>
+      <th>Replies</th>
+      <% if @timespan.editor -%>
+        <th id="reviews_of">Reviews<br/>of <%= @timespan.editor.name %></th>
+        <th id="replies_to">Replies<br/>to <%= @timespan.editor.name %></th>
+      <% end -%>
+      <th> Avg reviews<br> per post</th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+      <%= render(:partial => 'timespan', :collection => @timespan.subspans) %>  
+    <div class="totals">
+      <tr><td><h3>Totals</h3></td></tr>
+      <%= render(:partial => 'timespan', :object => @timespan) %>
+    </div>  
+  </table>
+<% end %>

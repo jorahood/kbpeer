@@ -1,0 +1,1023 @@
+Path: cobincho.uits.indiana.edu!jalapeno.ucs.indiana.edu!not-for-mail
+From: Kathy Smith <kasmith@indiana.edu>
+Newsgroups: kbreview
+Subject: fixed Re: CHANGED (zzzh in all,sakaihelp): In Oncourse CL, how do
+ I add, edit, duplicate, or delete an assignment?
+Date: Wed, 13 Apr 2005 08:13:15 -0500
+Organization: KB
+Lines: 254
+Message-ID: sample_id_2
+References: 
+Reply-To: kasmith@indiana.edu
+NNTP-Posting-Host: 156-56-18-134.dhcp-bl.indiana.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Trace: jalapeno.ucs.indiana.edu 1113397985 28241 156.56.18.134 (13 Apr 2005 13:13:05 GMT)
+X-Complaints-To: usenet@jalapeno.ucs.indiana.edu
+NNTP-Posting-Date: 13 Apr 2005 13:13:05 GMT
+User-Agent: Mozilla Thunderbird 0.8 (Macintosh/20040913)
+X-Accept-Language: en-us, en
+In-Reply-To: <d3hgc4$9qu$3@jalapeno.ucs.indiana.edu>
+Xref: cobincho.uits.indiana.edu kbreview:1
+
+Mary Hrovat wrote:
+> Is the overlap with aplm intentional? A couple of things below...
+
+
+<xtra> x11:1 xwindow:1 xwindows:1 key:1 board:1 </xtra>
+
+<!-- $Id: aeic.kbml,v 2.13 2005/04/13 15:19:50 medaley Exp $ -->
+</KBML>
+
+<!-- $Id: aeic.kbml,v 2.13 2005/04/13 15:19:50 medaley Exp $-->
+
+Path: cobincho.uits.indiana.edu!jalapeno.ucs.indiana.edu!not-for-mail
+From: Kathy Smith <kasmith@indiana.edu>
+Newsgroups: kbreview
+Subject: good Re: CHANGED (anri in all,oncourse-h,sakaihelp): In the Oncourse
+ Assessment Manager, how do I control who has access to my question pools?
+Date: Wed, 13 Apr 2005 10:37:55 -0500
+Organization: KB
+Lines: 90
+Message-ID: sample_id_1
+References: sample_id_2
+Reply-To: kasmith@indiana.edu
+NNTP-Posting-Host: 156-56-18-134.dhcp-bl.indiana.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Trace: jalapeno.ucs.indiana.edu 1113406667 28241 156.56.18.134 (13 Apr 2005 15:37:47 GMT)
+X-Complaints-To: usenet@jalapeno.ucs.indiana.edu
+NNTP-Posting-Date: 13 Apr 2005 15:37:47 GMT
+User-Agent: Mozilla Thunderbird 0.8 (Macintosh/20040913)
+X-Accept-Language: en-us, en
+In-Reply-To: <20050412175111.16252424E3@bell.ucs.indiana.edu>
+Xref: cobincho.uits.indiana.edu kbreview:3
+
+Mary Hrovat wrote:
+> Changed owner, domain, and altq audience for Sakai help; removed OAM
+> from the body of the doc.
+> -----------------begin-kbdoc---------
+> KB document anri in domain all,oncourse-h,sakaihelp
+>
+> <xtra> navigo sakai authorize cl</xtra>
+> 
+> <!-- $Id: anri.kbml,v 1.5 2005/04/12 17:50:58 mhrovat Exp $ -->
+> </kbml>
+> 
+Path: cobincho.uits.indiana.edu!jalapeno.ucs.indiana.edu!not-for-mail
+From: Kathy Smith <kasmith@indiana.edu>
+Newsgroups: kbreview
+Subject: good Re: CHANGED (anrh in all,oncourse-h,sakaihelp): In the Question
+ Pool Manager in Oncourse, how do I add questions to a question pool or subpool?
+Date: Wed, 13 Apr 2005 10:39:10 -0500
+Organization: KB
+Lines: 60
+Message-ID: <d3jeem$rih$3@jalapeno.ucs.indiana.edu>
+References: <20050412180143.BB52D424E3@bell.ucs.indiana.edu>
+Reply-To: kasmith@indiana.edu
+NNTP-Posting-Host: 156-56-18-134.dhcp-bl.indiana.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Trace: jalapeno.ucs.indiana.edu 1113406742 28241 156.56.18.134 (13 Apr 2005 15:39:02 GMT)
+X-Complaints-To: usenet@jalapeno.ucs.indiana.edu
+NNTP-Posting-Date: 13 Apr 2005 15:39:02 GMT
+User-Agent: Mozilla Thunderbird 0.8 (Macintosh/20040913)
+X-Accept-Language: en-us, en
+In-Reply-To: <20050412180143.BB52D424E3@bell.ucs.indiana.edu>
+Xref: cobincho.uits.indiana.edu kbreview:4
+
+Mary Hrovat wrote:
+> Changed domain and owner; added "in Oncourse" to q-line; some style.
+> Checking with Paul to see if it's OK to give anqa a sakaihelp q-line
+> to get rid of the punctuation problem in step 3.
+> -----------------begin-kbdoc---------
+> KB document anrh in domain all,oncourse-h,sakaihelp
+> 
+> <kbml>
+>   <kbq>
+>     <mainq>In the Question Pool Manager in Oncourse, how do I add
+ qline="sakaihelp">.<br><br>
+> 
+> <li>When you have filled in the relevant fields, you may preview the
+> question by clicking <mi>Preview</mi>.<br><br>
+> 
+> <li>To add the question to the pool or subpool, click <mi>Save</mi>.
+> 
+> <p>
+> 
+> To add the question to the pool or subpool and return to the "Add
+> Question to Pool" screen, click <mi>Save and Add Another</mi>.
+> 
+> </p>
+> 
+> </ol>
+> 
+> </body>
+>   <xtra>sakai navigo cl</xtra>
+> <!-- $Id: anrh.kbml,v 1.4 2005/04/12 18:00:54 mhrovat Exp $ -->
+> </kbml>
+> 
+Path: cobincho.uits.indiana.edu!jalapeno.ucs.indiana.edu!not-for-mail
+From: Kathy Smith <kasmith@indiana.edu>
+Newsgroups: kbreview
+Subject: good Re: CHANGED (anov in all,oncourse-h,sakaihelp): In the Oncourse
+ Assessment Manager, how do I delete an assessment?
+Date: Wed, 13 Apr 2005 10:39:58 -0500
+Organization: KB
+Lines: 38
+Message-ID: <d3jeg6$rih$4@jalapeno.ucs.indiana.edu>
+References: <20050412182324.A9B35424E3@bell.ucs.indiana.edu>
+Reply-To: kasmith@indiana.edu
+NNTP-Posting-Host: 156-56-18-134.dhcp-bl.indiana.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Trace: jalapeno.ucs.indiana.edu 1113406790 28241 156.56.18.134 (13 Apr 2005 15:39:50 GMT)
+X-Complaints-To: usenet@jalapeno.ucs.indiana.edu
+NNTP-Posting-Date: 13 Apr 2005 15:39:50 GMT
+User-Agent: Mozilla Thunderbird 0.8 (Macintosh/20040913)
+X-Accept-Language: en-us, en
+In-Reply-To: <20050412182324.A9B35424E3@bell.ucs.indiana.edu>
+Xref: cobincho.uits.indiana.edu kbreview:5
+
+Mary Hrovat wrote:
+> Changed owner, domains, and altq audience.
+> -----------------begin-kbdoc---------
+> KB document anov in domain all,oncourse-h,sakaihelp
+> 
+> <kbml>
+>   <kbq>
+>     <mainq>In the Oncourse Assessment Manager, how do I delete an
+> assessment?</mainq>
+> 
+> <altq audience="sakaihelp">Deleting an assessment</altq>
+> 
+>   </kbq>
+> 
+>   <body>
+> 
+> <boiler src="OAM.txt">
+> 
+> <p>To delete an assessment in the Assessment Manager, follow these
+> steps:
+> </p>
+> <ol>
+> 
+> <li>From the Assessments page, under "Core Assessments", find the
+> title of the desired assessment, and click the corresponding
+> <mi>Delete</mi> button.<br><br>
+> 
+> <li>You'll see a prompt asking you to confirm the deletion. If you're
+> certain you want to delete this assessment, click <mi>Delete</mi>.
+> 
+> </ol>
+> 
+> 
+> </body>
+>   <xtra>navigo sakai</xtra>
+> <!-- $Id: anov.kbml,v 1.7 2005/04/12 18:23:13 mhrovat Exp $ -->
+> </kbml>
+> 
+Path: cobincho.uits.indiana.edu!jalapeno.ucs.indiana.edu!not-for-mail
+From: Kathy Smith <kasmith@indiana.edu>
+Newsgroups: kbreview
+Subject: Re: CHANGED (aqqz in all): On AVIDD, how do I run a parallel job
+ using LAM?
+Date: Wed, 13 Apr 2005 10:47:59 -0500
+Organization: KB
+Lines: 164
+Message-ID: <d3jev8$rih$5@jalapeno.ucs.indiana.edu>
+References: <20050412211636.4A5FF424E3@bell.ucs.indiana.edu>
+Reply-To: kasmith@indiana.edu
+NNTP-Posting-Host: 156-56-18-134.dhcp-bl.indiana.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Trace: jalapeno.ucs.indiana.edu 1113407272 28241 156.56.18.134 (13 Apr 2005 15:47:52 GMT)
+X-Complaints-To: usenet@jalapeno.ucs.indiana.edu
+NNTP-Posting-Date: 13 Apr 2005 15:47:52 GMT
+User-Agent: Mozilla Thunderbird 0.8 (Macintosh/20040913)
+X-Accept-Language: en-us, en
+In-Reply-To: <20050412211636.4A5FF424E3@bell.ucs.indiana.edu>
+Xref: cobincho.uits.indiana.edu kbreview:6
+
+One small suggestion for elegance.
+
+Mary Hrovat wrote:
+> Updates from Arvind; restored prompt text before commands. I know we
+> don't generally include the prompts before commands, but in this case
+> it gives the user information about where a command is supposed to be
+> executed.
+> -----------------begin-kbdoc---------
+> KB document aqqz in domain all
+> 
+> <kbml>
+> 
+> 
+> </body>
+> <xtra>
+> computer supercomputer compiling supercomputing hpc faq teragrid:7
+> </xtra>
+> 
+> <!-- $Id: aqqz.kbml,v 1.6 2005/04/12 21:15:46 mhrovat Exp $ -->
+> </kbml>
+> 
+Path: cobincho.uits.indiana.edu!jalapeno.ucs.indiana.edu!not-for-mail
+From: Kathy Smith <kasmith@indiana.edu>
+Newsgroups: kbreview
+Subject: Re: CHANGED (aqrz in all,sakaihelp): In the Oncourse Assessment Manager,
+ how do I take an assessment?
+Date: Wed, 13 Apr 2005 10:56:52 -0500
+Organization: KB
+Lines: 72
+Message-ID: <d3jffs$rih$6@jalapeno.ucs.indiana.edu>
+References: <20050411181611.A0EF9424E3@bell.ucs.indiana.edu>
+Reply-To: kasmith@indiana.edu
+NNTP-Posting-Host: 156-56-18-134.dhcp-bl.indiana.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Trace: jalapeno.ucs.indiana.edu 1113407804 28241 156.56.18.134 (13 Apr 2005 15:56:44 GMT)
+X-Complaints-To: usenet@jalapeno.ucs.indiana.edu
+NNTP-Posting-Date: 13 Apr 2005 15:56:44 GMT
+User-Agent: Mozilla Thunderbird 0.8 (Macintosh/20040913)
+X-Accept-Language: en-us, en
+In-Reply-To: <20050411181611.A0EF9424E3@bell.ucs.indiana.edu>
+Xref: cobincho.uits.indiana.edu kbreview:7
+
+Kevin West wrote:
+> I added what content I could, may need more
+> -----------------begin-kbdoc---------
+> KB document aqrz in domain all,sakaihelp
+> 
+> <kbml>
+> 
+> <kbq>
+> <mainq>In the Oncourse Assessment Manager, how do I take an assessment?</mainq>
+> <altq audience="sakaihelp">Taking an assessment</altq>
+> </kbq>
+> 
+> <body>
+> 
+> <p who="*@all, *@oncoursecl"><strong>Note:</strong> The Assessment
+> Manager will become available in the new <kbh>Oncourse CL</kbh>
+> environment in June 2005, where it can be linked to those courses
+> using Oncourse CL. Any tests and surveys created in the previous beta
+> version can be exported and then imported into the Oncourse CL version
+> when it becomes available. The <kbh>Test and Survey Tool</kbh> in
+> Oncourse Classic remains unaffected by these changes.</p>
+> 
+> <p>
+> 
+
+>To take an assessment, in the <kbh>menubar</kbh> of the <kbh>course site</kbh>, click
+><mi>Assessment Manager</mi>. Under "Take an assessment", you will see
+> a list of available assessments. 
+>
+> </xtra>
+> 
+> <!-- $Id: aqrz.kbml,v 1.3 2005/04/11 18:15:58 kevwest Exp $ -->
+> </kbml>
+> 
+Path: cobincho.uits.indiana.edu!jalapeno.ucs.indiana.edu!not-for-mail
+From: Kathy Smith <kasmith@indiana.edu>
+Newsgroups: kbreview
+Subject: good Re: CHANGED (aqie in all,sakaihelp): In Windows XP, how do I
+ access Oncourse CL using WebDAV?
+Date: Wed, 13 Apr 2005 10:58:07 -0500
+Organization: KB
+Lines: 169
+Message-ID: <d3jfi7$rih$7@jalapeno.ucs.indiana.edu>
+References: <20050411190300.81D98424E3@bell.ucs.indiana.edu>
+Reply-To: kasmith@indiana.edu
+NNTP-Posting-Host: 156-56-18-134.dhcp-bl.indiana.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Trace: jalapeno.ucs.indiana.edu 1113407879 28241 156.56.18.134 (13 Apr 2005 15:57:59 GMT)
+X-Complaints-To: usenet@jalapeno.ucs.indiana.edu
+NNTP-Posting-Date: 13 Apr 2005 15:57:59 GMT
+User-Agent: Mozilla Thunderbird 0.8 (Macintosh/20040913)
+X-Accept-Language: en-us, en
+In-Reply-To: <20050411190300.81D98424E3@bell.ucs.indiana.edu>
+Xref: cobincho.uits.indiana.edu kbreview:8
+
+Maureen Daley wrote:
+> added Flash tutorial qs_webdav_siteid.swf
+> -----------------begin-kbdoc---------
+> KB document aqie in domain all,sakaihelp
+> 
+> <kbml>
+> 
+> <kbq>
+> <mainq>In Windows XP, how do I access Oncourse CL using
+> WebDAV?</mainq>
+> <altq audience="sakaihelp">Accessing files in Windows XP using WebDAV</altq>
+> 
+> </kbq>
+> 
+> <body>
+>
+> </ol>
+> 
+> </body>
+> 
+> <xtra>webdav web dav connect 
+> </xtra>
+> 
+> <!-- $Id: aqie.kbml,v 1.16 2005/04/11 19:02:47 medaley Exp $ -->
+> </kbml>
+> 
+Path: cobincho.uits.indiana.edu!jalapeno.ucs.indiana.edu!bell.ucs.indiana.edu!padbrown
+From: padbrown@bell.ucs.indiana.edu (Paul Brown)
+Newsgroups: kbreview
+Subject: REMOVED (aqlr in sakaihelp): In Oncourse CL, how do I set up a class or group folder in WebDAV?
+Date: 13 Apr 2005 11:10:04 -0500
+Organization: UITS Support Center - Indiana University Bloomington
+Lines: 28
+Distribution: local
+Message-ID: <20050413161003.CDA50424E3@bell.ucs.indiana.edu>
+NNTP-Posting-Host: jalapeno.ucs.indiana.edu
+X-Trace: jalapeno.ucs.indiana.edu 1113408604 2352 129.79.6.134 (13 Apr 2005 16:10:04 GMT)
+X-Complaints-To: usenet@jalapeno.ucs.indiana.edu
+NNTP-Posting-Date: 13 Apr 2005 16:10:04 GMT
+X-Original-To: kbreview@jalapeno.ucs.indiana.edu
+X-Delivered-To: kbreview@jalapeno.ucs.indiana.edu
+X-Received: from bell.ucs.indiana.edu (bell.ucs.indiana.edu [129.79.6.16])
+	by jalapeno.ucs.indiana.edu (Postfix) with ESMTP id 0398118D03
+	for <kbreview@jalapeno.ucs.indiana.edu>; Wed, 13 Apr 2005 11:10:03 -0500 (EST)
+X-Received: by bell.ucs.indiana.edu (Postfix, from userid 67441)
+	id CDA50424E3; Wed, 13 Apr 2005 11:10:03 -0500 (EST)
+X-To: kbreview@jalapeno.ucs.indiana.edu
+Xref: cobincho.uits.indiana.edu kbreview:9
+
+
+webdav placeholder; can write only for CTools (from CTools help);
+requires mapping a drive to an institution-specific network location;
+removing this placeholder, though eventually we may have the info
+needed to write this for Oncourse CL
+
+-----------------begin-kbdoc---------
+KB document aqlr in domain sakaihelp
+
+<kbml>
+
+<kbq>
+<mainq>In Oncourse CL, how do I set up a class or group folder in WebDAV?</mainq>
+<altq audience="sakaihelp">Setting up a class or group folder in WebDAV</altq>
+</kbq>
+
+<body>
+<p>Write me or remove me.</p>
+</body>
+
+<xtra>
+sakaihelp sakai help place holder placeholder web dav upload file up
+load online storage folder directory
+</xtra>
+
+<!-- $Id: aqlr.kbml,v 1.2 2005/04/05 20:59:57 padbrown Exp $ -->
+</kbml>
+
+Path: cobincho.uits.indiana.edu!jalapeno.ucs.indiana.edu!bell.ucs.indiana.edu!medaley
+From: medaley@bell.ucs.indiana.edu (Maureen Daley)
+Newsgroups: kbreview
+Subject: CHANGED (anns in all): What personal productivity open source software does UITS make available for anyone to download and use?
+Date: 13 Apr 2005 11:42:05 -0500
+Organization: UITS Support Center - Indiana University Bloomington
+Lines: 296
+Distribution: local
+Message-ID: <20050413164204.ED724424E3@bell.ucs.indiana.edu>
+NNTP-Posting-Host: jalapeno.ucs.indiana.edu
+X-Trace: jalapeno.ucs.indiana.edu 1113410525 2980 129.79.6.134 (13 Apr 2005 16:42:05 GMT)
+X-Complaints-To: usenet@jalapeno.ucs.indiana.edu
+NNTP-Posting-Date: 13 Apr 2005 16:42:05 GMT
+X-Original-To: kbreview@jalapeno.ucs.indiana.edu
+X-Delivered-To: kbreview@jalapeno.ucs.indiana.edu
+X-Received: from bell.ucs.indiana.edu (bell.ucs.indiana.edu [129.79.6.16])
+	by jalapeno.ucs.indiana.edu (Postfix) with ESMTP id 2CFF218D03
+	for <kbreview@jalapeno.ucs.indiana.edu>; Wed, 13 Apr 2005 11:42:05 -0500 (EST)
+X-Received: by bell.ucs.indiana.edu (Postfix, from userid 67443)
+	id ED724424E3; Wed, 13 Apr 2005 11:42:04 -0500 (EST)
+X-To: kbreview@jalapeno.ucs.indiana.edu
+Xref: cobincho.uits.indiana.edu kbreview:10
+
+SOA, added TOC, some style. 
+-----------------begin-kbdoc---------
+KB document anns in domain all
+
+<kbml>
+<kbq>
+<mainq>
+What personal productivity open source software does UITS make
+available for anyone to download and use?
+</mainq>
+
+<altq audience="ose">Open source personal productivity software</altq>
+
+</kbq>
+
+<body>
+<p>On this page:</p>
+<ul>
+<li><a href="#intro">Introduction</a>
+<li><a href="#openoffice">OpenOffice.org</a>
+<li><a href="#koffice">KOffice</a>
+<li><a href="#database">Database options</a>
+<li><a href="#other">Other tools</a>
+</ul>
+
+<hr>
+
+<a name="intro"></a><h4>Introduction</h4>
+<p>
+<kbh>Open source</kbh> software packages are a viable alternative for
+students, faculty, staff, and departments seeking personal
+productivity applications without the monetary investment associated
+with many commercial applications. In most cases, it is legal to
+download and share these applications without restriction. The
+majority of open source applications can pass files back and forth
+with their commercial counterparts.
+</p>
+
+
+<a name="openoffice"></a><h4>OpenOffice.org</h4>
+
+<p>
+<kbh>OpenOffice.org</kbh> is perhaps the best example of personal
+productivity software available to many platforms as open source
+software. In most cases, you will be able to successfully open and use
+all of your documents created in a commercial application (e.g.,
+Microsoft Office or WordPerfect). However, you may occasionally
+encounter translation errors as commercial software packages tend to
+implement new features before they are implemented in other
+applications.
+</p>
+>
+</body>
+<xtra>word exchange ximian access open office gnome meeting sql</xtra> 
+
+<!-- $Id: anns.kbml,v 1.14 2005/04/13 16:41:51 medaley Exp $
+-->
+<!-- $Id: anns.kbml,v 1.14 2005/04/13 16:41:51 medaley Exp $ -->
+</kbml>
+
+name ETUDES-NG) from April 2005 through August 2005 at Foothill-De
+Anza and thirty other community colleges in California, in preparation
+for full deployment starting fall 2005 through 2007.
+<BR><BR></dd>
+
+<dt><a name="ind"></a><strong>Indiana University</strong></dt>
+
+<dd>Sakai 1.5.1-rc1 (named <kbh>Oncourse CL</kbh>) is currently
+implemented as a large-scale pilot for spring semester 2005 in
+preparation for full deployment of Sakai 2.0 in summer 2005. Faculty,
+staff, and students have been encouraged to become familiar with the
+system by creating worksites, and some faculty members have chosen to
+use Oncourse CL for their courses. Statistics as of April 13, 2005:
+
+<kbtable widths="32,10">
+
+<TR><L>Sites created spring and summer 2005 <l>&nbsp;&nbsp;581
+<TR><L>Project sites created <l>&nbsp;&nbsp;446
+<TR><L>Course sites created <l>&nbsp;&nbsp;135
+<TR><L>Total worksites created <l>&nbsp;&nbsp;853
+<TR><L>Unique user IDs in the system <l>3,526
+<TR><L>Unique users who have logged in <l>1,851
+
+</kbtable>
+</dd>
+
+<dd>For more, see <kba docid="anej"> 
+<BR><BR></dd>
+
+<dt><a name="johns"></a><strong>Johns Hopkins University</strong></dt>
+
+<dd>At Johns Hopkins, seven pilot courses are using Sakai during
+spring 2005. After assessment, a larger pilot effort may ensue for
+fall 2005.  <BR><BR></dd>
+
+<dt><a name="luebeck"></a><strong>L&#252;beck University of Applied
+Sciences, Germany</strong></dt>
+
+<dd>L&#252;ebeck University of Applied Sciences will begin a pilot in
+spring 2005, with full deployment beginning 2006.<br><br></dd>
+
+<dt><a name="mit"></a><strong>Massachusetts Institute of
+Technology</strong></dt>
+
+<dd>MIT will deploy Sakai as a production pilot in fall 2005, with a
+goal of expanding the pilot and incorporating additional Sakai tools
+throughout the 2005-2006 academic year. MIT plans a campus-wide
+deployment of Sakai to replace the current Stellar system by fall
+2006.<BR><BR></dd>
+
+<dd>The MIT implementation will be guided by three key considerations,
+including conformance to Institute requirements for security,
+accessibility, and enterprise integration; usability performance that
+is commensurate with our support capacity; and functionality
+enhancements to the current Stellar suite.<BR><BR></dd>
+
+<dd>The fall 2005 pilot will include Samigo and Gradebook
+functionality, linked by the hierarchy, authorization, and course
+management API work being done for Sakai 2.0, as well as custom MIT
+authentication and enterprise integration being developed. At the same
+time, in preparation for the future transition, MIT will make the
+Stellar user interface to be <kbh>Sakai Style Guide</kbh> compliant,
+and incorporate MIT implementations of Sakai APIs, where
+feasible.<BR><BR></dd>
+
+<dd>For fall 2006, MIT plans to offer Sakai as a functional
+replacement for Stellar, and to begin a complete transition with focus
+on documentation, support, and broad community awareness.<BR><BR></dd>
+
+<dt><a name="nw"></a><strong>Northwestern University</strong></dt>
+
+<dd>Northwestern will begin a Sakai 2.x pilot by fall 2005 with
+selected Northwestern courses that must exploit one or more of the
+following services of the Sakai platform: 
+<BR><BR>
+<ul>
+<li>Samigo assessment suite
+<li>Inter-operability of course sites with FEDORA-based digital
+collections
+<li>OSP2 e-portfolios
+</ul>
+<BR>
+Northwestern will continue to run Blackboard 6.x as the production CMS
+during 2005-2006. Decisions about future production deployment of
+Sakai will be based upon faculty, student, and librarian experiences
+during the Sakai pilot.  <BR><BR></dd>
+
+<dt><a name="stan"></a><strong>Stanford University</strong></dt>
+
+<dd>Stanford's plans include working with the Sakai framework and
+tools in pilot mode during the 2004-05 academic year. Stanford
+anticipates a full deployment (as the next generation for its
+CourseWork software) for the 2005-2006 academic year.
+<BR><BR></dd>
+
+<!--<dt><a name="texstate"></a><strong>Texas State
+University</strong></dt>
+
+<dd>Texas State will run a small pilot during spring 2005, with
+deployment fall 2005.
+<BR><BR></dd>-->
+
+<dt><a name="berk"></a><strong>University of California,
+Berkeley</strong></dt>
+
+<dd>UC Berkeley is currently working on its Sakai implementation design
+and on campus integration issues. Plans include releasing a preview to
+a controlled number of users (5,000-10,000) in fall 2005. A January
+2006 implementation will be open to all interested users. Migration
+from current systems will occur in a rolling fashion as needed.
+<BR><BR></dd>
+
+<dt><a name="ucla"></a><strong>University of California,
+Los Angeles</strong></dt>
+
+<dd>UCLA will pilot Sakai in fall 2005 with a selected set of courses
+and faculty research groups in several different academic and
+administrative units.
+
+<BR><BR></dd>
+
+<dt><a name="merc"></a><strong>University of California,
+Merced</strong></dt>
+
+<dd>As UC Merced welcomes its inaugural class in fall 2005, Sakai will
+be live as the only environment for collaboration and learning.
+<BR><BR></dd>
+
+<dt><a name="cape"></a><strong>University of Cape Town, South
+Africa</strong></dt>
+
+<dd>The University of Cape Town intends to pilot Sakai in 2005, with
+deployment in February 2006.
+<BR><BR></dd>
+
+<dt><a name="fernando"></a><strong>University Fernando Pessoa,
+Portugal</strong></dt>
+
+<dd>University Fernando Pessoa, a private university in Porto,
+Portugal with 4,500 students (undergraduate and graduate) is running
+Sakai 1.0 in a pilot with 450 users involving 60 courses. The
+university plans to fully adopt Sakai as the CLE
+platform.<BR><BR></dd>
+
+
+<dt><a name="lleida"></a><strong>University of Lleida, Spain</strong></dt>
+
+<dd>The University of Lleida plans a pilot in 2004, and full
+deployment in 2005.
+<BR><BR></dd>
+
+<dt><a name="mich"></a><strong>University of Michigan</strong></dt>
+
+<dd>In fall 2004, Michigan began a migration of its course management
+software (<kbh>CTools</kbh>) to Sakai. As of mid-February 2005, CTools
+has more than 25,000 users. The number of daily users ranges from
+5,000 (Fridays and Saturdays) to 15,000 (Mondays and Tuesdays). The
+average student logged on about twice a day (1.77 times) for an
+average of 43 minutes per session.  Approximately 1,591 class sites
+have been set up (representing many sections), as well as 2,810
+project sites. UM is currently running Sakai 1.5.  <BR><BR></dd>
+
+<dd>A <kbh>PDF</kbh> graphic depicting the system in place at Michigan
+is available in the Sakai Educational Partners Discussion Group
+worksite on the <kbh>collab.sakaiproject.org site</kbh>. From
+<mi>Resources</mi>, choose the <mi>Development</mi> folder. Click
+<mi>Sakai Features and Gaps</mi>, and then click <mi>UM Sakai
+hardware setup.pdf</mi>. You can access the file more directly at:
+
+<example>
+  http://collab.sakaiproject.org/portal/site/sakai-educ
+</example>
+
+<boiler src="sakai-access-sepp.txt">
+</dd>
+
+<dt><a name="mizzou"></a><strong>University of Missouri</strong></dt>
+
+<dd>At Missouri-Columbia, a select group of faculty members are using
+Sakai 1.5 as a research and collaboration tool during the spring and
+summer of 2005. After the initial assessment, plans are to move
+forward with a larger pilot effort testing Sakai 2.0 as a learning
+management system for fall 2005 and winter 2006.
+<BR><BR></dd>
+
+<dt><a name="uva"></a><strong>University of
+Virginia</strong></dt>
+
+<dd>University of Virginia is planning a pilot for collaborations only
+(not courses) in fall 2005.
+<br><br></dd>
+
+<!--<dt><a name="virtech"></a><strong>Virginia Polytechnic Institute
+and State University</strong></dt>
+
+<dd>Virginia Tech's Learning Technologies intends to launch a
+Sakai-based learning and collaboration service pilot in fall 2005,
+integrating the Open Source Portfolio 2 into this service offering.
+Faculty orientation and training to Sakai will commence during summer
+2005. Sakai will initially be positioned as an alternative to the
+Blackboard 6 service, with special emphasis on collaboration tools for
+learning and research.  <BR><BR></dd>-->
+
+<dt><a name="whit"></a><strong>Whitman College</strong></dt>
+
+<dd>Whitman College will run a small pilot in fall 2005, an extended
+pilot in spring 2006, and will deploy in fall 2006.
+<BR><BR></dd>
+
+<dt><a name="yale"></a><strong>Yale University</strong></dt>
+
+<dd>At Yale, Sakai 1.0 is now in beta for faculty and staff. Fall 2005
+is the target for approximately 100 courses to begin using Sakai in
+production, with Yale's current course management system running in
+parallel during development. 
+</dd>
+
+</dl>
+
+</body>
+
+<xtra>
+run environment hw um umich mich
+</xtra>
+
+<!-- $Id: aprd.kbml,v 1.52 2005/04/15 12:48:52 jthatche Exp $ -->
+</kbml>
+
+Path: cobincho.uits.indiana.edu!jalapeno.ucs.indiana.edu!bell.ucs.indiana.edu!jthatche
+From: jthatche@bell.ucs.indiana.edu (Julie Thatcher)
+Newsgroups: kbreview
+Subject: CHANGED (what in all): KB 101: A really basic introduction to the Knowledge Base
+Date: 15 Apr 2005 09:03:57 -0500
+Organization: UITS Support Center - Indiana University Bloomington
+Lines: 91
+Distribution: local
+Message-ID: <20050415140356.B428F424E3@bell.ucs.indiana.edu>
+NNTP-Posting-Host: jalapeno.ucs.indiana.edu
+X-Trace: jalapeno.ucs.indiana.edu 1113573837 26178 129.79.6.134 (15 Apr 2005 14:03:57 GMT)
+X-Complaints-To: usenet@jalapeno.ucs.indiana.edu
+NNTP-Posting-Date: 15 Apr 2005 14:03:57 GMT
+X-Original-To: kbreview@jalapeno.ucs.indiana.edu
+X-Delivered-To: kbreview@jalapeno.ucs.indiana.edu
+X-Received: from bell.ucs.indiana.edu (bell.ucs.indiana.edu [129.79.6.16])
+	by jalapeno.ucs.indiana.edu (Postfix) with ESMTP id E684218D03
+	for <kbreview@jalapeno.ucs.indiana.edu>; Fri, 15 Apr 2005 09:03:56 -0500 (EST)
+X-Received: by bell.ucs.indiana.edu (Postfix, from userid 38105)
+	id B428F424E3; Fri, 15 Apr 2005 09:03:56 -0500 (EST)
+X-To: kbreview@jalapeno.ucs.indiana.edu
+Xref: cobincho.uits.indiana.edu kbreview:71
+
+Bit of revision, fixed a link.
+-----------------begin-kbdoc---------
+KB document what in domain all
+
+<kbml>
+
+<kbq>
+KB 101: A really basic introduction to the Knowledge Base
+</kbq>
+
+<body>
+
+<h3>What is the Knowledge Base?</h3>
+<p>
+
+The Knowledge Base (KB) is an online collection of over 10,500 answers
+to questions about information technology (IT), especially those
+relevant to users at all eight campuses of Indiana University.  A
+tremendous variety of topics is covered, and users can find answers to
+their questions through several different interfaces.  A <a
+href="http://kb.indiana.edu">full-text search</A> returns documents
+matching a user's search terms, a <a
+href="http://kb.iu.edu/data/menu.html">menu-based interface</A> sorts
+common questions by topic, and a <a
+href="http://kb.iu.edu/data/glos.html">hypertext glossary</A> defines
+important terms.
+</p>
+
+<h3>Who uses the Knowledge Base?</h3>
+
+<p>
+
+The Knowledge Management (KM) team in the <kbh>UITS</kbh> Support
+Center maintains the Knowledge Base to help fulfill the Support
+Center's mission of supporting IT users at IU.  Phone consultants at
+the Support Center refer to the KB while giving instructions to
+callers with questions.  Consultants use the KB heavily in composing
+responses to user requests for information sent by email.  The general
+IT community, both within and outside UITS, also uses the KB to do
+self-directed searches for information.  Consultants actively
+encourage users to exploit the KB as an information resource, because
+users who are able to find answers to their questions through the
+automated services of the KB free up consultants' time for answering
+more complicated questions. Additionally, service providers throughout
+the IU enterprise use the KB to store both internal and external
+information.
+</p>
+
+<p>
+Use of the Knowledge Base is not restricted to the Bloomington campus
+or even to IU.  In fact, thousands of people from around the world
+regularly use the KB.
+</p>
+
+<h3>Who maintains the Knowledge Base?</h3>
+
+<p>
+
+Support Center staff members designated as Knowledge Management
+editorial staff and developers perform the editing, formatting,
+writing, scripting, and interfacing needed to maintain the KB.  The
+editors continually revise the information in texts to reflect changes
+in IT services and products, striving to ensure that all information
+is up to date and accurate.
+</p>
+
+<p>
+
+The KM team manages information for nearly 100 service providers
+and content owners throughout the IU enterprise. Those responsible for
+the technical accuracy of documents periodically review the contents
+of these texts and work with editors to make necessary
+changes. Knowledge Management staff meet regularly with these subject
+matter experts (these meetings are often called "retreats") to go over
+documents in order to maintain their accuracy and usefulness.
+Consultants also check the contents of texts in the course of their
+work and notify the editors of any inaccuracies they encounter and
+suggest revisions. Also, general users of the KB regularly send in
+comments and suggestions, making it a truly interactive tool.
+</p>
+
+<p>
+For additional basic information about the Knowledge Base, read the
+KB <kba docid="info">.
+</p>
+
+</body>
+<xtra>jurevans</xtra>
+<!-- $Id: what.kbml,v 1.12 2005/04/15 14:03:35 jthatche Exp $ -->
+</kbml>
+
+Path: cobincho.uits.indiana.edu!jalapeno.ucs.indiana.edu!bell.ucs.indiana.edu!jthatche
+From: jthatche@bell.ucs.indiana.edu (Julie Thatcher)
+Newsgroups: kbreview
+Subject: CHANGED (info in all): Information page
+Date: 15 Apr 2005 09:12:49 -0500
+Organization: UITS Support Center - Indiana University Bloomington
+Lines: 40
+Distribution: local
+Message-ID: <20050415141248.8EAD2424E3@bell.ucs.indiana.edu>
+NNTP-Posting-Host: jalapeno.ucs.indiana.edu
+X-Trace: jalapeno.ucs.indiana.edu 1113574369 26365 129.79.6.134 (15 Apr 2005 14:12:49 GMT)
+X-Complaints-To: usenet@jalapeno.ucs.indiana.edu
+NNTP-Posting-Date: 15 Apr 2005 14:12:49 GMT
+X-Original-To: kbreview@jalapeno.ucs.indiana.edu
+X-Delivered-To: kbreview@jalapeno.ucs.indiana.edu
+X-Received: from bell.ucs.indiana.edu (bell.ucs.indiana.edu [129.79.6.16])
+	by jalapeno.ucs.indiana.edu (Postfix) with ESMTP id BC8B818D03
+	for <kbreview@jalapeno.ucs.indiana.edu>; Fri, 15 Apr 2005 09:12:48 -0500 (EST)
+X-Received: by bell.ucs.indiana.edu (Postfix, from userid 38105)
+	id 8EAD2424E3; Fri, 15 Apr 2005 09:12:48 -0500 (EST)
+X-To: kbreview@jalapeno.ucs.indiana.edu
+Xref: cobincho.uits.indiana.edu kbreview:72
+
+Tightened wording at top, kba's instead of hard-coded links.
+-----------------begin-kbdoc---------
+KB document info in domain all
+
+<kbml>
+<kbq>
+ <mainq>Information page</mainq>
+</kbq>
+<body>
+
+<p>
+Much information about Indiana University's <a
+href="http://kb.indiana.edu">Knowledge Base</a> is available in the
+Knowledge Base itself:
+</p>
+
+<ul>
+<li><kba docid="acjq">
+
+<li><kba docid="acte">
+
+<li><kba docid="aclt">
+
+<li><kba docid="afvk">
+
+<li><kba docid="afvh">
+
+<li><kba docid="afvi">
+
+<li><kba docid="agft">
+
+<li><kba docid="agfr">
+
+</ul>
+
+</body>
+<xtra>jurevans</xtra>
+<!-- $Id: info.kbml,v 1.3 2005/04/15 14:12:27 jthatche Exp $ -->
+</kbml>
+
+Path: cobincho.uits.indiana.edu!jalapeno.ucs.indiana.edu!bell.ucs.indiana.edu!kasmith
+From: kasmith@bell.ucs.indiana.edu (Kathleen Smith)
+Newsgroups: kbreview
+Subject: CHANGED (aqct in kbstaff): In Falcon, how can I access an email attachment?
+Date: 15 Apr 2005 09:36:54 -0500
+Organization: UITS Support Center - Indiana University Bloomington
+Lines: 49
+Distribution: local
+Message-ID: <20050415143653.B9163424E3@bell.ucs.indiana.edu>
+NNTP-Posting-Host: jalapeno.ucs.indiana.edu
+X-Trace: jalapeno.ucs.indiana.edu 1113575814 26761 129.79.6.134 (15 Apr 2005 14:36:54 GMT)
+X-Complaints-To: usenet@jalapeno.ucs.indiana.edu
+NNTP-Posting-Date: 15 Apr 2005 14:36:54 GMT
+X-Original-To: kbreview@jalapeno.ucs.indiana.edu
+X-Delivered-To: kbreview@jalapeno.ucs.indiana.edu
+X-Received: from bell.ucs.indiana.edu (bell.ucs.indiana.edu [129.79.6.16])
+	by jalapeno.ucs.indiana.edu (Postfix) with ESMTP id 007FD18D03
+	for <kbreview@jalapeno.ucs.indiana.edu>; Fri, 15 Apr 2005 09:36:53 -0500 (EST)
+X-Received: by bell.ucs.indiana.edu (Postfix, from userid 67450)
+	id B9163424E3; Fri, 15 Apr 2005 09:36:53 -0500 (EST)
+X-To: kbreview@jalapeno.ucs.indiana.edu
+Xref: cobincho.uits.indiana.edu kbreview:73
+
+SOA and reworded first part of doc with update from Denny McWhirter
+-----------------begin-kbdoc---------
+KB document aqct in domain kbstaff
+
+<kbml>
+
+<kbq>
+In Falcon, how can I access an email attachment?
+</kbq>
+
+<body>
+<p>
+Depending on how the message was sent to
+<code>&nbsp;kb@iu.edu&nbsp;</code>, there are two ways to access the
+attachment:
+</p>
+
+<ul>
+<li>To view an attachment that was submitted to <kbh>Falcon</kbh> via
+email, go to the <mi>Correspondence</mi> tab and click the <mi>View
+E-mail</mi> button.
+<br>
+<br>
+<li>Scroll down; you will see the <mi>Attachment</mi> button on the
+left-hand side of the form, below the <mi>Copy Description</mi>
+button. Click <mi>Attachment</mi> to launch a Web page that
+will allow you to read the attachment.
+
+<p><strong>Note:</strong> Executable attachments are not permitted in
+<kbh>Falcon</kbh>. They are stripped from email messages, and the
+<mi>Attachment</mi> button will not appear.</p>
+
+<li>If the incident came into Falcon in such a way that it
+was first a contact, then to get to the attachment, click <mi>Related
+Records</mi>, and then click the actual Contact number, then the
+<mi>Correspondence</mi> tab, and then <mi>View E-mail</mi>. Click the
+<mi>Attachment</mi> button, and then click the attachment's name in
+the window that opens.
+</ul>
+
+</body>
+
+<xtra>
+attached incident contact owner email emailed falcon queue
+</xtra>
+
+<!-- $Id: aqct.kbml,v 1.6 2005/04/15 14:36:17 kasmith Exp $ -->
+</kbml>
+
+Path: cobincho.uits.indiana.edu!jalapeno.ucs.indiana.edu!bell.ucs.indiana.edu!mhrovat
+From: mhrovat@bell.ucs.indiana.edu (Mary Hrovat)
+Newsgroups: kbreview
+Subject: ARCHIVED (anjz in all): On the Shakespeare or Jewel systems, how do I know which mail server I use?
+Date: 15 Apr 2005 09:41:11 -0500
+Organization: UITS Support Center - Indiana University Bloomington
+Lines: 56
+Distribution: local
+Message-ID: <20050415144110.AC804424E3@bell.ucs.indiana.edu>
+NNTP-Posting-Host: jalapeno.ucs.indiana.edu
+X-Trace: jalapeno.ucs.indiana.edu 1113576071 26919 129.79.6.134 (15 Apr 2005 14:41:11 GMT)
+X-Complaints-To: usenet@jalapeno.ucs.indiana.edu
+NNTP-Posting-Date: 15 Apr 2005 14:41:11 GMT
+X-Original-To: kbreview@jalapeno.ucs.indiana.edu
+X-Delivered-To: kbreview@jalapeno.ucs.indiana.edu
+X-Received: from bell.ucs.indiana.edu (bell.ucs.indiana.edu [129.79.6.16])
+	by jalapeno.ucs.indiana.edu (Postfix) with ESMTP id DE26D18D03
+	for <kbreview@jalapeno.ucs.indiana.edu>; Fri, 15 Apr 2005 09:41:10 -0500 (EST)
+X-Received: by bell.ucs.indiana.edu (Postfix, from userid 63297)
+	id AC804424E3; Fri, 15 Apr 2005 09:41:10 -0500 (EST)
+X-To: kbreview@jalapeno.ucs.indiana.edu
+Xref: cobincho.uits.indiana.edu kbreview:74
+
+
+Archived.
+-----------------begin-kbdoc---------
+KB document anjz in domain all
+
+<kbml>
+  <kbq>
+    <mainq>On the Shakespeare or Jewel systems, how do I know
+    which mail server I use?
+</mainq>
+  </kbq>
+  <body>
+
+<!-- Archived per jpfarmer. This functionality no longer available
+in AMS. mah 4/15/05 -->
+
+<boiler src="pineshakes.txt">
+
+If you have an account on the Indiana University <kbh>Shakespeare</kbh>
+  or <kbh>Jewel</kbh> email servers, you can determine which server is hosting
+  your account by using the <kbh>Account Management Service</kbh>
+  (AMS). To do so, follow these directions:
+
+<ol>
+
+<li>Go to:
+
+<example>
+  https://itaccounts.iu.edu/
+</example>
+
+<strong>Note:</strong> You must use a Web <kbh>browser</kbh> that
+supports <kbh>SSL</kbh> (e.g., <kbh>Netscape Navigator</kbh> 1.2 or
+higher, <kbh>Internet Explorer</kbh>, <kbh>Safari</kbh>).<br><br>
+
+<li>Select your status, click the radio button next to <mi>Create more
+IU computing accounts, set email forwarding, and manage my existing
+accounts and passwords</mi>, then click <mi>Continue</mi>.<br><br>
+
+<li>Enter your <kbh>Network ID</kbh> username and password, and click
+<mi>Continue</mi>.<br><br>
+
+<li>Under "Select a service:", click <mi>view your accounts</mi>.<br><br>
+
+<li>Near the bottom of the page, under "Your email is forwarded to:",
+you should see your current mail forwarding information followed by
+directions for accessing your IU email account, including the name of
+the server hosting your account and its corresponding <kbh>IMAP</kbh> name.
+
+</ol>
+
+</body>
+  <xtra>shakes email iago kate lear ariel pearl jade host hostname</xtra>
+<!-- $Id: anjz.kbml,v 1.8 2005/04/15 14:40:56 mhrovat Exp $ -->
+</kbml>
+

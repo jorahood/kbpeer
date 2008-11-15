@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <%= stylesheet_link_tag "basic" %>
+    <%= javascript_include_tag "prototype" %>
+    <script language="JavaScript" type="text/javascript">
+      <!--
+          function ChangeAction(action) {
+          $('the_form').action = action;
+          }
+          // -->
+    </script>
+  </head>
+  <body>
+    <%= @content_for_layout %>
+  </body>
+</html>

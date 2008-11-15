@@ -1,0 +1,338 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+Andy_wrote_Tim_reviewed_1:
+  id:             1
+  subject:        this is a subject 
+  message_id:     Andy_wrote_Tim_reviewed_1
+  reference:      Andy_wrote_9
+  date:           2006-06-28 10:48:02
+  editor_id:      4
+  rawtext:        blah
+  parent_id:      9
+  type:           Review
+  docid:          aaaa
+  reviews:        0
+
+Andy_wrote_Tim_reviewed_2:
+  id:             2
+  subject:        this is a second subject 
+  message_id:     Andy_wrote_Tim_reviewed_2
+  reference:      Andy_wrote_10
+  date:           2006-07-28 10:48:02
+  editor_id:      4
+  rawtext:        blah
+  parent_id:      10
+  type:           Review
+  docid:          aaab
+  reviews:        0
+
+Andy_wrote_Mary_reviewed_3:
+  id:             3
+  subject:        this is a third subject 
+  message_id:     Andy_wrote_Mary_reviewed_3
+  reference:      Andy_wrote_11
+  date:           2006-06-28 10:48:02
+  editor_id:      2
+  rawtext:        blah
+  parent_id:      11
+  type:           Review
+  docid:          aaac
+  reviews:        0
+
+Mary_wrote_Tim_reviewed_4:
+  id:             4
+  subject:        this is a fourth subject 
+  message_id:     Mary_wrote_Tim_reviewed_4
+  reference:      Mary_wrote_12
+  date:           2006-06-28 10:48:02
+  editor_id:      4
+  rawtext:        blah
+  parent_id:      12
+  type:           Review
+  docid:          aaad
+  reviews:        0
+
+Tim_wrote_Paul_reviewed_5:
+  id:             5
+  subject:        rawk!
+  message_id:     Tim_wrote_Paul_reviewed_5
+  reference:      Tim_wrote_13
+  date:           2006-06-28 10:48:02
+  editor_id:      3
+  rawtext:        blah
+  parent_id:      13
+  type:           Review
+  docid:          aaae
+  reviews:        0
+
+real_rawtext:
+  id:             6
+  message_id:     real_rawtext
+  reference:      Andy_wrote_9 Andy_wrote_Tim_reviewed_1
+  subject:        What about the IU-Corel License Agreement? (agsb in all)
+  date:           2006-06-28 10:48:02
+  docid:          agsb
+  editor_id:      1
+  parent_id:      1
+  type:           Reply
+  root_editor_id: 1
+  reviews:        0
+  rawtext:        | 
+       Path: cobincho.uits.indiana.edu!not-for-mail
+       From: "Andrew Orahood" <jorahood@paprika.uits.indiana.edu>
+       Newsgroups: kbreview
+       Subject: What about the IU-Corel License Agreement? (agsb in all)
+       Date: 2006-06-28 10:48:02
+       Organization: Indiana University Knowledge Management
+       Lines: 37
+       Distribution: local
+       Message-ID: real_rawtext
+       References: Andy_wrote_9 Andy_wrote_Tim_reviewed_1
+       NNTP-Posting-Host: 192.168.10.99
+       X-Trace: cobincho.uits.indiana.edu 1144762709 3899 192.168.10.99 (11 Apr 2006 13:38:29 GMT)
+       X-Complaints-To: usenet@cobincho.uits.indiana.edu
+       NNTP-Posting-Date: Tue, 11 Apr 2006 13:38:29 +0000 (UTC)
+       User-Agent: tin/1.7.8-20050315 ("Scalpay") (UNIX) (Linux/2.4.31+20051102.00 (i686))
+       Xref: cobincho.uits.indiana.edu kbreview:9627
+
+       Julie Thatcher <jthatche@paprika.uits.indiana.edu> wrote:
+       > One thing.
+       >
+       > In article <20050613203913.95B5C42400@bell.ucs.indiana.edu>,
+       > Rich Moghtader <rmoghtad@bell.ucs.indiana.edu> wrote:
+       > >updated per meeting with SSED
+       > >-----------------begin-kbdoc---------
+       > >KB document agsb in domain all
+       > >
+       > >
+       > ><!-- $Id: agsb.kbml,v 1.11 2005/06/13 20:38:54 rmoghtad Exp $ -->
+       > ></kbml>
+
+initial_post:
+  id:             7
+  subject:        A tiger?!? In Africa?!?
+  message_id:     initial_post
+  date:           2006-06-28 10:48:02
+  editor_id:      1
+  parent_id:      0
+  type:           Post
+  docid:          agsb
+  reviews:        0
+  rawtext:        | 
+       Path: cobincho.uits.indiana.edu!not-for-mail
+       From: "Andrew Orahood" <jorahood@paprika.uits.indiana.edu>
+       Newsgroups: kbreview
+       Subject: A tiger?!? In Africa?!?
+       Date: 2006-06-27 16:03:33
+       Organization: Indiana University Knowledge Management
+       Lines: 37
+       Distribution: local
+       Message-ID: initial_post
+       NNTP-Posting-Host: 192.168.10.99
+       X-Trace: cobincho.uits.indiana.edu 1144762709 3899 192.168.10.99 (11 Apr 2006 13:38:29 GMT)
+       X-Complaints-To: usenet@cobincho.uits.indiana.edu
+       NNTP-Posting-Date: Tue, 11 Apr 2006 13:38:29 +0000 (UTC)
+       User-Agent: tin/1.7.8-20050315 ("Scalpay") (UNIX) (Linux/2.4.31+20051102.00 (i686))
+       Xref: cobincho.uits.indiana.edu kbreview:9627
+
+       > >-----------------begin-kbdoc---------
+       > >KB document agsb in domain all
+       > >
+       > >
+       > ><!-- $Id: agsb.kbml,v 1.11 2005/06/13 20:38:54 rmoghtad Exp $ -->
+       > ></kbml>
+
+another_rawtext:
+  id:             8
+  reference:      Andy_wrote_9 Andy_wrote_Tim_reviewed_1
+  subject:        What about the IU-Corel License Agreement?
+  date:           2006-06-28 10:48:02
+  message_id:     another_rawtext
+  editor_id:      1
+  parent_id:      1
+  type:           Reply
+  docid:          agsb
+  reviews:        0
+  rawtext:        | 
+       Path: cobincho.uits.indiana.edu!not-for-mail
+       From: Andrew Orahood <jorahood@paprika.uits.indiana.edu>
+       Newsgroups: kbreview
+       Subject: What about the IU-Corel License Agreement?
+       Date: 2006-06-27 16:03:33
+       Organization: Indiana University Knowledge Management
+       Lines: 37
+       Distribution: local
+       Message-ID: another_rawtext
+       References: Andy_wrote_9 Andy_wrote_Tim_reviewed_1
+       NNTP-Posting-Host: 192.168.10.99
+       X-Trace: cobincho.uits.indiana.edu 1144762709 3899 192.168.10.99 (11 Apr 2006 13:38:29 GMT)
+       X-Complaints-To: usenet@cobincho.uits.indiana.edu
+       NNTP-Posting-Date: Tue, 11 Apr 2006 13:38:29 +0000 (UTC)
+       User-Agent: tin/1.7.8-20050315 ("Scalpay") (UNIX) (Linux/2.4.31+20051102.00 (i686))
+       Xref: cobincho.uits.indiana.edu kbreview:9627
+
+       Julie Thatcher <jthatche@paprika.uits.indiana.edu> wrote:
+       > One thing.
+       >
+       > In article <20050613203913.95B5C42400@bell.ucs.indiana.edu>,
+       > Rich Moghtader <rmoghtad@bell.ucs.indiana.edu> wrote:
+       > >updated per meeting with SSED
+       > >-----------------begin-kbdoc---------
+       > >KB document agsb in domain all
+       > >
+       > >
+       > ><!-- $Id: agsb.kbml,v 1.11 2005/06/13 20:38:54 rmoghtad Exp $ -->
+       > ></kbml>
+
+Andy_wrote_9:
+  id:             9
+  subject:        this is a subject 
+  message_id:     Andy_wrote_9
+  date:           2006-07-27 16:03:33
+  editor_id:      1
+  rawtext:        blah
+  parent_id:      0
+  type:           Post
+  docid:          aaaa
+  reviews:        2
+
+Andy_wrote_10:
+  id:             10
+  subject:        this is a second subject 
+  message_id:     Andy_wrote_10
+  date:           2006-06-28 10:48:02
+  editor_id:      1
+  rawtext:        blah
+  parent_id:      0
+  type:           Post
+  docid:          aaab
+  reviews:        1
+
+Andy_wrote_11:
+  id:             11
+  subject:        this is a third subject 
+  message_id:     Andy_wrote_11
+  date:           2006-06-28 10:48:02
+  editor_id:      1
+  rawtext:        blah
+  parent_id:      0
+  type:           Post
+  docid:          aaac
+  reviews:        1
+
+Mary_wrote_12:
+  id:             12
+  subject:        this is a fourth subject 
+  message_id:     Mary_wrote_12
+  date:           2006-06-28 10:48:02
+  editor_id:      2
+  rawtext:        blah
+  parent_id:      0
+  type:           Post
+  docid:          aaad
+  reviews:        1
+
+Tim_wrote_13:
+  id:             13
+  subject:        yeah
+  message_id:     Tim_wrote_13
+  date:           2006-06-28 10:48:02
+  editor_id:      4
+  rawtext:        blah
+  parent_id:      0
+  type:           Post
+  docid:          aaae
+  reviews:        1
+
+Mary_replied_to_her_own_post_14:
+  id:             14
+  subject:        wah!
+  message_id:     Mary_replied_to_her_own_post_14
+  reference:      Mary_wrote_12
+  date:           2006-06-28 10:48:02
+  editor_id:      2
+  rawtext:        blah
+  parent_id:      12
+  type:           Reply
+  docid:          aaad
+  reviews:        0
+
+Tim_replied_to_his_own_post_15:
+  id:             15
+  subject:        ok
+  message_id:     Tim_replied_to_his_own_post_15
+  reference:      Tim_wrote_13
+  date:           2006-06-28 10:48:02
+  editor_id:      4
+  rawtext:        blah
+  parent_id:      13
+  type:           Reply
+  docid:          aaae
+  reviews:        0
+
+Andy_replied_to_old_post_16:
+  id:             16
+  subject:        brouhaha
+  message_id:     Andy_replied_to_old_post_16
+  reference:      old_post_not_in_spool
+  date:           2006-07-28 10:48:02
+  editor_id:      1
+  rawtext:        blah
+  parent_id:      0
+  type:           Reply
+  docid:          aaaf
+  reviews:        0
+
+editor_not_in_fixture:
+  id:             17
+  reference:      Andy_wrote_9 Andy_wrote_Tim_reviewed_1
+  subject:        What about the IU-Corel License Agreement?
+  date:           2006-06-28 10:48:02
+  message_id:     editor_not_in_fixture
+  parent_id:      1
+  type:           Reply
+  docid:          agsb
+  reviews:        0
+  rawtext:        | 
+       Path: cobincho.uits.indiana.edu!not-for-mail
+       From: An Editor not in the editors.yml fixture file <neweditor@paprika.uits.indiana.edu>
+       Newsgroups: kbreview
+       Subject: What about the IU-Corel License Agreement?
+       Date: Tue, 11 Apr 2006 13:38:29 +0000 (UTC)
+       Organization: Indiana University Knowledge Management
+       Lines: 37
+       Distribution: local
+       Message-ID: editor_not_in_fixture
+       References: Andy_wrote_9 Andy_wrote_Tim_reviewed_1
+       NNTP-Posting-Host: 192.168.10.99
+       X-Trace: cobincho.uits.indiana.edu 1144762709 3899 192.168.10.99 (11 Apr 2006 13:38:29 GMT)
+       X-Complaints-To: usenet@cobincho.uits.indiana.edu
+       NNTP-Posting-Date: Tue, 11 Apr 2006 13:38:29 +0000 (UTC)
+       User-Agent: tin/1.7.8-20050315 ("Scalpay") (UNIX) (Linux/2.4.31+20051102.00 (i686))
+       Xref: cobincho.uits.indiana.edu kbreview:9627
+
+       Julie Thatcher <jthatche@paprika.uits.indiana.edu> wrote:
+       > One thing.
+       >
+       > In article <20050613203913.95B5C42400@bell.ucs.indiana.edu>,
+       > Rich Moghtader <rmoghtad@bell.ucs.indiana.edu> wrote:
+       > >updated per meeting with SSED
+       > >-----------------begin-kbdoc---------
+       > >KB document agsb in domain all
+       > >
+       > >
+       > ><!-- $Id: agsb.kbml,v 1.11 2005/06/13 20:38:54 rmoghtad Exp $ -->
+       > ></kbml>
+
+Andy_wrote_Mary_reviewed_18:
+  id:             18
+  subject:        this is a subject 
+  message_id:     Andy_wrote_Mary_reviewed_18
+  reference:      Andy_wrote_9
+  date:           2006-06-28 10:48:02
+  editor_id:      2
+  rawtext:        blah
+  parent_id:      9
+  type:           Review
+  docid:          aaaa
+  reviews:        0
+

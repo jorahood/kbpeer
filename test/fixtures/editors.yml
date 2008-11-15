@@ -1,0 +1,27 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+andy:
+  id:           1
+  name:         jorahood
+  full_name:    Andy Orahood
+
+mary:
+  id:           2
+  name:         mhrovat
+  full_name:    Mary Hrovat
+
+paul:
+  id:           3
+  name:         padbrown
+  full_name:    Paul Brown
+
+tim:
+  id:           4
+  name:         tcarter
+  full_name:    Tim Carter
+  is_ex:        true
+
+rich:
+  id:           5
+  name:         rmoghtad
+  full_name:    Rich Moghtader
+
