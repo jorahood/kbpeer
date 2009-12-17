@@ -23,16 +23,6 @@ class Article < ActiveRecord::Base
     find(:first, :order => "date DESC").date
   end
 
-  def self.import_spool(spool_file)
-    delete_all
-    spool_list = break_spool_into_spool_list(spool_file)
-    article_list = make_unsaved_posts_from_spool_list(spool_list) 
-    array_into_tree_and_save(article_list)
-    puts "#{Article.find(:all).size} articles imported" unless RAILS_ENV == 'test'
-    sort_reviews_and_replies
-    puts "...cast to reviews and replies" unless RAILS_ENV == 'test'
-  end
-
   def self.break_spool_into_spool_list(spool_file)
     spool_file.split(/^(?=Path:)/)
   end

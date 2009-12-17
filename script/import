@@ -1,9 +1,0 @@
-#!/usr/bin/env ruby
-require File.dirname(__FILE__) + '/../config/boot'
-require File.dirname(__FILE__) + '/../config/environment'
-if ARGV 
-  articles = Article.import_spool(ARGF.read)
-end
-
-
-
