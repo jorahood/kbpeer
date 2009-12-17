@@ -1,6 +1,5 @@
-<% form_for :timespan do |f| %> Articles for 
-  <%= f.select(:editor_id, @editors.map { |ed| 
-      [ed.name, ed.id] }, :include_blank => true) %> from 
+<% form_for :timespan do |f| %> Articles for
+  <%= f.collection_select(:editor_id, @editors, :id, :name, :selected => @timespan.editor_id.to_i, :include_blank => 'all editors') %> from
   <%= f.date_select(:start) %> to <%= f.date_select(:finish) %>
   <%= submit_tag("Change") %>
   <br/>Subdivide chart by: 

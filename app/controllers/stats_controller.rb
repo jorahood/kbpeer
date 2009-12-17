@@ -5,7 +5,7 @@ class StatsController < ApplicationController
 
   def setup_stats
     process_params if params['timespan']
-    @editors = Editor.find_all_current
+    @editors = Editor.find_all_current.sort_by {|ed|ed.name}
     @subdivisions = Timespan.subdivisions
     @timespan = Timespan.new(
       :start => @start, 
