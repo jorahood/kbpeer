@@ -70,7 +70,7 @@ class Timespan
   end
 
   def avg_reviews_per_post
-    @avg_reviews_per_post ||= (editor||Editor).posts.posted_within(self).average(:reviews)
+    @avg_reviews_per_post ||= (editor||Editor).posts.posted_within(self).average(:reviews) || 0
   end
 
   def calc_stats

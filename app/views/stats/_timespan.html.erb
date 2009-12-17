@@ -10,7 +10,7 @@
     <td class="count">         <%= timespan.count_reviews_of %></td>
     <td class="count">         <%= timespan.count_replies_to %></td>
   <% end -%>
-  <td class="count" id="avg"><%= timespan.avg_reviews_per_post %></td>
+  <td class="count" id="avg"><%= sprintf('%.2f', timespan.avg_reviews_per_post) %></td>
   <td class="count" id="no_reviews"><%= timespan.count_posts_with_no_reviews %></td>
   <td class="count" id="one_review"><%= timespan.count_posts_with_one_review %></td>
   <td class="count" id="two_reviews"><%= timespan.count_posts_with_two_reviews %></td>
