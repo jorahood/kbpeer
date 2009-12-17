@@ -1,8 +1,6 @@
 class GraphsController < ApplicationController
-  model :editor
-  model :article
-  require 'rubygems'
-  gem 'gruff'
+#  require 'rubygems'
+#  gem 'gruff'
   # To make caching easier, add a line like this to config/routes.rb:
   # map.graph "graph/:action/:id/image.png", :controller => "graph"
   #

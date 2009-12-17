@@ -1,5 +1,5 @@
 # This file is auto-generated from the current state of the database. Instead of editing this file, 
-# please use the migrations feature of ActiveRecord to incrementally modify your database, and
+# please use the migrations feature of Active Record to incrementally modify your database, and
 # then regenerate this schema definition.
 #
 # Note that this schema.rb definition is the authoritative source for your database schema. If you need
@@ -29,8 +29,8 @@ ActiveRecord::Schema.define(:version => 21) do
     t.integer  "reviews",        :default => 0
   end
 
-  add_index "articles", ["parent_id"], :name => "article_id_fkey"
   add_index "articles", ["message_id"], :name => "index_articles_on_message_id"
+  add_index "articles", ["parent_id"], :name => "article_id_fkey"
 
   create_table "editors", :force => true do |t|
     t.string  "name"

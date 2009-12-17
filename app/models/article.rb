@@ -5,12 +5,12 @@ class Article < ActiveRecord::Base
   validates_uniqueness_of :message_id
   acts_as_nested_set :scope => :root
   
-  has_finder :posted_within, lambda { |timespan| 
+  named_scope :posted_within, lambda { |timespan|
     raise "missing a timespan parameter" unless timespan.respond_to?(:range)
     {:conditions => {:date => timespan.range}}
   }
   
-  has_finder :has_reviews, lambda { |number|
+  named_scope :has_reviews, lambda { |number|
     raise "missing a 'number of reviews' parameter" unless number
     {:conditions => {:reviews => number}}
   }
