@@ -4,7 +4,7 @@ set :stages, %w(staging prod)
 set :default_stage, "staging"
 require 'capistrano/ext/multistage'
 
-set :database_yml_in_scm, false
+set :database_yml_in_scm, true
 set :application, "kbpeer"
 set :repository, 'svn+ssh://poblano.uits.indiana.edu/srv/svn/kb-support/trunk/kbpeer'
 set :deploy_to, "/opt/apps/#{application}"
