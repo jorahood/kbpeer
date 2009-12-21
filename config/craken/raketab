@@ -1,1 +1,1 @@
-0 0 * * * import > /dev/null
+0 1 * * * kbpeer:import > /dev/null

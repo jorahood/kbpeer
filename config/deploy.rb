@@ -9,12 +9,6 @@ set :application, "kbpeer"
 set :repository, 'svn+ssh://poblano.uits.indiana.edu/srv/svn/kb-support/trunk/kbpeer'
 set :deploy_to, "/opt/apps/#{application}"
 
-# ssh keys to be copied to server.
-# id_dsa.pub is for connecting from my development machine,
-# wl2_rsa.pub is for a connection initiated from my bell account
-# (private key is stored at bell:.ssh/wl2_rsa) tunnelling for port 1521 from bell to the server
-ssh_options[:keys] = %w(/Users/jorahood/.ssh/kbpeer_rsa)
-
 # If you aren't using Subversion to manage your source code, specify
 # your SCM below:
 #set :scm, :git
