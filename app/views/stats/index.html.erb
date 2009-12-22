@@ -8,20 +8,23 @@
   <% end -%>
   <table class='list'>
     <tr>
-      <th>Timespan</th>
-      <th>Posts</th>
-      <th>Docids<br>posted</th>
-      <th>Reviews </th>
-      <th>Replies</th>
+      <th rowspan="2">Timespan</th>
+      <th rowspan="2">Posts</th>
+      <th rowspan="2">Docids</th>
+      <th rowspan="2">Reviews </th>
+      <th rowspan="2">Replies</th>
       <% if @timespan.editor -%>
-        <th id="reviews_of">Reviews<br/>of <%= @timespan.editor.name %></th>
-        <th id="replies_to">Replies<br/>to <%= @timespan.editor.name %></th>
+        <th id="reviews_of" rowspan="2">Reviews<br/>of <%= @timespan.editor.name %></th>
+        <th id="replies_to" rowspan="2">Replies<br/>to <%= @timespan.editor.name %></th>
       <% end -%>
-      <th> Avg reviews<br> per post</th>
-      <th>0</th>
-      <th>1</th>
-      <th>2</th>
-      <th>3</th>
+      <th rowspan="2"> Reviews per post</th>
+      <th colspan="4">Posts with __ reviews:</th>
+    </tr>
+    <tr>
+      <th>Zero</th>
+      <th>One</th>
+      <th>Two</th>
+      <th>Three or more</th>
     </tr>
       <%= render(:partial => 'timespan', :collection => @timespan.subspans) %>  
     <div class="totals">

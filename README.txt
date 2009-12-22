@@ -22,4 +22,4 @@ Application deployment:
 7. ssh to kb-dev.indiana.edu and
       scp kbreview.txt to (test-)kbpeer.uits.iu.edu:/tmp
 8. ssh to (test-)kbpeer.uits.iu.edu and
-      cd /opt/apps/kbpeer && rake kbpeer:import RAILS_ENV=production
+      cd /opt/apps/kbpeer/current && rake kbpeer:import RAILS_ENV=production
