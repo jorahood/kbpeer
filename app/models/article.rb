@@ -61,7 +61,7 @@ class Article < ActiveRecord::Base
         article.set_as_reply
       end
       article.save!
-      puts i if RAILS_ENV == 'development'
+      puts i unless RAILS_ENV == 'test'
     end
   end
   
