@@ -1,8 +1,0 @@
---- 
-:control_url: druby://127.0.0.1:8999
-:host: 127.0.0.1
-:password: da.mZOOJ/KDdk
-:port: 9999
-:env: development
-:logfile: log/scgi.log
-:config: config/scgi.yaml
