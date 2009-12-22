@@ -6,3 +6,4 @@ tmp/*
 .DS_Store
 db/*.sqlite3
 kbreview.txt
+config/database.yml
