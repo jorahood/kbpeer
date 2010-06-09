@@ -1,4 +1,18 @@
-Kbpeer application notes
+This app imports the spool from the kbreview Usenet forum, using
+acts_as_nested_set to preserve the threading of the posts. It applies
+a few rules to analyze the nature of the posts:
+
+1. The first post in a thread is a Post requesting peer review of a document.
+2. The first child posts by authors other than the original author are Reviews of the document.
+3. Any other posts by the authors of 1. or 2. are Replies to peer review comments.
+
+Once the posts have been analyzed into Posts, Reviews, and Replies,
+they are broken down by time period and displayed per author, both of
+which are user-selectable. After selecting a user and time period, the
+message totals can be turned into a line graph.
+
+Application notes
+
 * Application deployment is done with capistrano and deprec. See config/deploy.rb for configuration details, and Application deployment steps below.
 * kbpeer requires a file be copied from kb-dev.indiana.edu. There are cronjobs running on kb-dev.indiana.edu to:
     a. create the file from the kbreview newsgroup spool:
